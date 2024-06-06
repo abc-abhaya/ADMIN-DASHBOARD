@@ -1,0 +1,50 @@
+.capitalize,
+h1,
+h2,
+h3,
+svg title {
+	text-transform: capitalize;
+}
+
+.sidebar {
+	padding: 1.5rem 2rem;
+	color: white;
+}
+
+.sidebar > * {
+	margin-bottom: 2rem;
+}
+
+ul > li {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	margin-top: 0.8rem;
+}
+
+div.hero {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 2rem;
+}
+
+div.hero > h1 {
+	font-size: 1.4rem;
+}
+
+span.svg,
+span.svg > svg {
+	fill: white;
+	height: 1em;
+	width: 1em;
+}
+
+ul > li {
+	font-size: 1.6rem;
+}
+
+ul > li span.title {
+	font-size: 1rem;
+	font-weight: bold;
+}
