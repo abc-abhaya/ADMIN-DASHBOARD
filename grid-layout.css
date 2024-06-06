@@ -15,7 +15,7 @@
 	width: 100%;
 	min-height: 100vh;
 	display: grid;
-	grid-template-columns: 1fr 3fr;
+	grid-template-columns: 1fr 4fr;
 	grid-template-rows: 100px 1fr;
 }
 
@@ -31,6 +31,7 @@
 	grid-area: 1/ 2 / span 1 / span 1;
 }
 
-.main {
+.main-content {
 	grid-area: 2/ 2 / span 1 / span 1;
+	background-color: #e2e8f0;
 }
